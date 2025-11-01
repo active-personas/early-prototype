@@ -6,6 +6,11 @@ This is the Python implementation of the [Active Personas](https://active-person
 
 Active Personas enables automated UX evaluation by simulating realistic user feedback through AI-powered personas. This prototype implements the core framework components for conducting Nielsen's heuristic evaluations using multiple LLM providers, including GPT-5, Gemini 2.5 Pro, Llama 4 (Maverick), and Claude 4.
 
+The Active Personas framework (Figure 1) provides a systematic approach to dynamic user feedback generation by combining AI-powered personas with established evaluation methods like Nielsen's heuristic principles.
+
+![Active Personas for usability evaluation](./images/dsr5_evaluation_overview.png)
+*Figure 1: Active Personas framework overview*
+
 ## Quick Start
 
 ### Installation
@@ -130,6 +135,18 @@ early-prototype/
 └── run_nielsen_evaluation.py  # Main execution script
 ```
 
+## Citation
+
+This repository is part of a conference paper.
+
+### Preprint
+
+Simaremare, Mario; Edison, Henry (2025). Active Personas for Synthetic User Feedback: A Design Science Study. DOI: [10.1007/978-3-031-85849-9_36](https://doi.org/10.13140/RG.2.2.33753.17764)
+
+### Appendix
+
+Simaremare, Mario; Edison, Henry (2025). Active Personas for Synthetic User Feedback - Appendix. figshare. DOI: [10.6084/m9.figshare.29925158.v1](https://doi.org/10.6084/m9.figshare.29925158.v1)
+
 ## Contributing
 
-This is an early prototype under active development. For issues, feature requests, or contributions, please visit the [Active Personas GitHub organization](https://github.com/active-personas-org).
+This is an early prototype under active development. For issues, feature requests, or contributions, please visit the project page [Active Personas](https://active-personas.github.io/).
