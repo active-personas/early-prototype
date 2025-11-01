@@ -1,0 +1,16 @@
+openai-whisper
+openai>=1.0.0
+python-dotenv
+kokoro>=0.9.4 
+soundfile
+requests
+beautifulsoup4
+lxml
+google-play-scraper
+pandas 
+googletrans
+matplotlib
+seaborn
+scipy
+statsmodels
+pingouin
